@@ -1,0 +1,161 @@
+:root{
+    --primary-color: rgb(26, 26, 31);
+    --secondary-color: rgb(59, 88, 203);
+    --auxiliary-color: rgb(64, 74, 93);
+    --tertiary-color: rgb(217, 225, 112)
+}
+
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(230, 223, 230); ;
+}
+
+nav {
+  background-color:  rgb(59, 88, 203);
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav>div>a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+
+.logo{
+    display: flex;
+}
+
+#homesection {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 80vh;
+  align-items: center;
+}
+
+#homesection>img{
+  aspect-ratio: 1/1;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#homesection>div{
+  padding: 30px;
+  width: 50%;
+}
+
+#menwear{
+    background-color: rgb(252, 245, 252);;
+}
+
+#menwear>.cards>.card{
+    border-radius: 25px;
+    background-color: var(--auxiliary-color);
+    width: 300;
+    height: 340;
+    padding: 15px;
+    margin: 10px;
+}
+
+#menwear>div>h3{
+    text-align: center;
+}
+
+#menwear>div>p{
+    text-align: center;
+}
+
+#menwear>div>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#menwear>.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#menwear>.cards>.card>a>img{
+    position: relative;
+}
+
+#menwear>.cards>.card>button{
+  all: unset;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 8px 24px 8px 24px;
+  border-radius: 50px;
+  transition: 2s;
+  width: 80%;
+  text-align: center;
+}
+
+#menwear>.cards>.card>button:hover{
+  background-color: rgb(170, 59, 59);
+  color: rgb(94, 212, 137);
+  cursor: pointer;
+}
+
+#ladieswear{
+    background-color: rgb(243, 242, 243);
+}
+
+#ladieswear>.cards>.card{
+    border-radius: 25px;
+    background-color: var(--auxiliary-color);
+    width: 250;
+    height: 340;
+    padding: 15px;
+    margin: 10px;
+}
+
+#ladieswear>div>h3{
+    text-align: center;
+}
+
+#ladieswear>div>p{
+    text-align: center;
+}
+
+#ladieswear>div>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#ladieswear>.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ladieswear>.cards>.card>button{
+  all: unset;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 8px 24px 8px 24px;
+  border-radius: 50px;
+  transition: 2s;
+  width: 80%;
+  text-align: center;
+}
+
+#ladieswear>.cards>.card>button:hover{
+  background-color: rgb(170, 59, 59);
+  color: rgb(94, 212, 137);
+  cursor: pointer;
+}
+
+#contactus>div>h2{
+    text-align: center;
+}
+
+
+
+
